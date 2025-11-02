@@ -16,16 +16,13 @@ Proyek ini dibuat untuk ngulik isi dataset ini supaya bisa:
 - Coba lihat hubungan antara Marketing_Spend sama hasil Revenue dan Profit.
 - Dari hasil analisisnya, kasih saran strategi yang bisa langsung dipraktikkan biar perusahaan bisa makin untung.
 
-Rumusan Masalah:
-- Region mana yang paling konsisten kasih Profit Margin tinggi, bukan cuma Revenue besar?
-- Apakah ngasih Discount_Percentage tinggi itu benar-benar efektif, atau malah bikin Profit jadi turun?
-- Dari semua Product_Category, mana yang jadi “mesin profit” (untung besar) dan mana yang cuma “penjual volume” (pendapatan/revenue tinggi, tapi untung/profit tipis)?
-- Seberapa besar pengaruh Marketing_Spend terhadap Revenue di berbagai Sales_Channel?
+2. AI Support Explanation
 
-Pendekatan:
+A. Tujuan Penggunaan AI: Dalam proyek ini, AI (Large Language Model) tidak digunakan untuk menganalisis data langsung, tetapi berperan sebagai alat bantu pengambilan keputusan. Tujuannya adalah membantu menyusun dan merangkum hasil analisis menjadi draf rekomendasi bisnis awal yang lebih terarah.
 
-Langkah yang dilakukan di proyek ini cukup sederhana:
-- Cek data dulu, pastiin datanya lengkap dan nggak ada yang kosong, atau mungkin ada angka yang aneh.
-- Eksplorasi data (EDA) buat lihat pola dari Revenue, Profit, Discount_Percentage, dan lainnya lewat grafik atau tabel.
-- Analisis lebih dalam untuk tahu region, kategori produk, dan faktor yang paling ngaruh ke profit.
-- Bikin kesimpulan dan saran biar hasilnya bisa dipakai buat strategi bisnis yang lebih untung.
+B. Cara Penggunaan AI: AI generatif (seperti fitur AI di Google Colab) digunakan untuk dua hal utama berdasarkan hasil EDA:
+
+Peringkasan (Summarization): Meminta AI untuk merangkum 3 insight utama ke dalam format laporan singkat yang menonjolkan dampak bisnisnya.
+Pembuatan Rekomendasi (Recommendation Generation): Meminta AI menghasilkan ide awal rekomendasi bisnis yang dapat ditindaklanjuti sesuai dengan insight yang ditemukan.
+
+C. Alasan Penggunaan AI: AI membantu mempercepat proses dari temuan data menjadi ide strategis. Hasil dari AI kemudian ditinjau dan disesuaikan secara manual agar tetap relevan dengan konteks bisnis dan memenuhi standar penilaian pada bagian Conclusion & Recommendation.
