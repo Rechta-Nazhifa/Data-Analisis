@@ -20,7 +20,8 @@ Proyek ini dibuat untuk ngulik isi dataset ini supaya bisa:
 
 A. Tujuan Penggunaan AI: Dalam proyek ini, AI (Large Language Model) tidak digunakan untuk menganalisis data langsung, tetapi berperan sebagai alat bantu pengambilan keputusan. Tujuannya adalah membantu menyusun dan merangkum hasil analisis menjadi draf rekomendasi bisnis awal yang lebih terarah.
 
-B. Cara Penggunaan AI: AI generatif (seperti fitur AI di Google Colab) digunakan untuk dua hal utama berdasarkan hasil EDA:
+B. Cara Penggunaan AI: 
+AI generatif (seperti fitur AI di Google Colab) digunakan untuk dua hal utama berdasarkan hasil EDA:
 
 Peringkasan (Summarization): Meminta AI untuk merangkum 3 insight utama ke dalam format laporan singkat yang menonjolkan dampak bisnisnya.
 Pembuatan Rekomendasi (Recommendation Generation): Meminta AI menghasilkan ide awal rekomendasi bisnis yang dapat ditindaklanjuti sesuai dengan insight yang ditemukan.
