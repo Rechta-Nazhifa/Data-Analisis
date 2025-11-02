@@ -4,10 +4,12 @@ Judul Proyek : Analisis Penjualan Global untuk Strategi Keuntungan yang Lebih Ba
 Dataset : https://www.kaggle.com/datasets/shohinurpervezshohan/global-sales-performance-dataset
 
 1. Project Overview
+
 Latar Belakang:
 Di dunia bisnis yang terus berubah, setiap perusahaan pasti ingin tahu apa saja yang membuat penjualan mereka naik atau turun di berbagai wilayah dan jenis produk. Dengan melihat data dari Global Sales Performance Dataset, kita bisa tahu hal-hal penting seperti tren penjualan, seberapa efektif promo atau diskon yang dilakukan, dan di mana saja ada peluang untuk meningkatkan keuntungan. Jadi, analisis data ini bisa membantu perusahaan membuat keputusan yang lebih tepat dan mengembangkan strategi penjualan yang lebih baik.
 
 Tujuan Proyek:
+
 Proyek ini dibuat untuk ngulik isi dataset ini supaya bisa:
 - Cari tahu region dan kategori produk mana yang punya Revenue dan Profit paling tinggi dan paling rendah.
 - Lihat seberapa besar pengaruh Discount_Percentage (diskon) terhadap Profit, apakah bantu naik atau malah nurunin untung.
@@ -21,6 +23,7 @@ Rumusan Masalah:
 - Seberapa besar pengaruh Marketing_Spend terhadap Revenue di berbagai Sales_Channel?
 
 Pendekatan:
+
 Langkah yang dilakukan di proyek ini cukup sederhana:
 - Cek data dulu, pastiin datanya lengkap dan nggak ada yang kosong, atau mungkin ada angka yang aneh.
 - Eksplorasi data (EDA) buat lihat pola dari Revenue, Profit, Discount_Percentage, dan lainnya lewat grafik atau tabel.
